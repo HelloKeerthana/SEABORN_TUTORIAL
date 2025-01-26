@@ -1,41 +1,56 @@
-<b><h1>Seaborn Visualization Examples</h1></b>
+<b><h1>SEABORN TUTORIAL</h1></b>
 
-<p>This Jupyter Notebook demonstrates various Seaborn plots for data visualization. It includes examples of commonly used plots with sample datasets.</p>
+<h2><b>1. SET UP</b></h2>
+<p>How to set up Seaborn and required libraries, installation steps, and importing datasets.</p>
 
-<b><h2>Plots Included:</h2></b>
+<h2><b>2. GETTING THE DATA</b></h2>
+<p>Loading and exploring Seaborn's built-in datasets like <code>tips</code>, <code>iris</code>, and <code>penguins</code>.</p>
 
+<h2><b>3. DISTRIBUTION PLOTS</b></h2>
 <ul>
-  <li><b>Histplot</b>: Visualizes the distribution of a dataset with histogram and kernel density estimate (KDE).</li>
-  <li><b>Boxplot</b>: Shows the distribution of data and highlights outliers.</li>
-  <li><b>Violinplot</b>: Combines aspects of boxplots and KDE plots to show the distribution of a dataset.</li>
-  <li><b>Scatterplot</b>: Displays the relationship between two continuous variables.</li>
-  <li><b>Barplot</b>: Shows the average (or other statistic) of a categorical variable, with optional confidence intervals.</li>
-  <li><b>Heatmap</b>: Visualizes matrix-like data, often used for correlation matrices.</li>
-  <li><b>Pairplot</b>: Plots pairwise relationships between multiple variables in a dataset.</li>
-  <li><b>Countplot</b>: Displays the count of categorical data points in a dataset.</li>
-  <li><b>FacetGrid</b>: Creates multiple subplots based on the values of a categorical variable and many moree</li>
+  <li><b>Histplot</b>: Visualizing the distribution of a dataset using histograms and kernel density estimates (KDE).</li>
+  <li><b>KDE Plot</b>: Kernel density estimation to estimate the probability density function of a continuous variable.</li>
 </ul>
 
-<b><h2>Dataset Used:</h2></b>
-<p>The notebook uses the Seaborn sample datasets such as:</p>
+<h2><b>4. JOINT PLOT</b></h2>
+<p>Visualizing relationships between two variables, combining scatterplot and marginal distributions.</p>
+
+<h2><b>5. KDE PLOT</b></h2>
+<p>Plotting continuous data and visualizing the density distribution using KDE.</p>
+
+<h2><b>6. PAIR PLOTS</b></h2>
+<p>Creating pairwise scatterplots to visualize relationships across multiple variables.</p>
+
+<h2><b>7. RUG PLOT</b></h2>
+<p>Adding small vertical ticks at data points to represent the distribution of data on the axes.</p>
+
+<h2><b>8. CATEGORICAL PLOTS</b></h2>
 <ul>
-  <li><b>tips</b>: Data about restaurant tips (e.g., total bill, tip amount, time, gender).</li>
-  <li><b>iris</b>: A classic dataset with flower characteristics (e.g., petal and sepal length, species).</li>
+  <li><b>Bar Plot</b>: Plotting categorical data with bars, useful for comparing averages.</li>
+  <li><b>Count Plot</b>: Visualizing the count of each category.</li>
+  <li><b>Box Plot</b>: Showing the distribution of data and identifying outliers.</li>
+  <li><b>Violin Plot</b>: Combining box plot and KDE for data distribution.</li>
+  <li><b>Strip Plot</b>: Adding individual data points along with categorical data.</li>
+  <li><b>Swarm Plot</b>: A variation of the strip plot where points are adjusted to avoid overlap.</li>
 </ul>
 
-<b><h2>Instructions:</h2></b>
-<ol>
-  <li>Run the notebook to see various Seaborn plot examples.</li>
-  <li>Ensure that Seaborn and Matplotlib are installed in your environment.</li>
-  <li>Modify the plots to visualize different columns or datasets for custom visualizations.</li>
-</ol>
-
-<b><h2>Requirements:</h2></b>
+<h2><b>9. PALETTES</b></h2>
+<p>Using color palettes to enhance the visualization and choose the right color scheme.</p>
 <ul>
-  <li><b>Seaborn</b>: Data visualization library based on Matplotlib.</li>
-  <li><b>Pandas</b>: For data manipulation.</li>
-  <li><b>Matplotlib</b>: For plot rendering in Jupyter notebooks.</li>
+  <li><b>Perceptually Uniform Palettes</b>: Palettes that maintain readability even when viewed in grayscale.</li>
 </ul>
 
-<b><h2>Example Usage:</h2></b>
-<p>Run each cell to generate plots and customize the parameters (e.g., change color palette, hue, etc.) to explore data patterns.</p>
+<h2><b>10. MATRIX PLOTS</b></h2>
+<ul>
+  <li><b>Heat Maps</b>: Visualizing matrix-like data using color intensities to represent values.</li>
+  <li><b>Cluster Maps</b>: Heatmaps with hierarchical clustering to show relationships between variables.</li>
+</ul>
+
+<h2><b>11. PAIR GRID</b></h2>
+<p>Creating grids of subplots for pairwise relationships, customizable for different plot types.</p>
+
+<h2><b>12. FACET GRID</b></h2>
+<p>Creating grid-like plots for visualizing data across subsets of categorical variables.</p>
+
+<h2><b>13. REGRESSION PLOTS</b></h2>
+<p>Visualizing relationships between continuous variables with fitted regression lines.</p>
