@@ -13,7 +13,7 @@
   <li><b>Heatmap</b>: Visualizes matrix-like data, often used for correlation matrices.</li>
   <li><b>Pairplot</b>: Plots pairwise relationships between multiple variables in a dataset.</li>
   <li><b>Countplot</b>: Displays the count of categorical data points in a dataset.</li>
-  <li><b>FacetGrid</b>: Creates multiple subplots based on the values of a categorical variable.</li>
+  <li><b>FacetGrid</b>: Creates multiple subplots based on the values of a categorical variable and many moree</li>
 </ul>
 
 <b><h2>Dataset Used:</h2></b>
